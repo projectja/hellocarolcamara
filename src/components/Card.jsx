@@ -1,7 +1,7 @@
 import React from 'react'
 //    {empresa[0].author}
 export default function Card({empresa}) {
-    console.log("la empresa en card es interesante " + empresa[0].author)
+    console.log("la empresa en card es interesante . tercer commit " + empresa[0].author)
   return (    
     <div>
         <p>
