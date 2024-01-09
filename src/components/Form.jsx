@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 export default function Form({action}) {
-  const [cif, setCif] = useState("Ozymandias");
+  const [cif, setCif] = useState("");
   // console.log(e.target.value);
   console.log("el cif es "  + cif);
     return (
